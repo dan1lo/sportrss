@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/background"
+  >
+ <ImageView
+android:id="@+id/img_user"
+android:layout_width="56px"
+android:layout_height="54px"
+android:layout_x="5px"
+android:layout_y="200px"
+android:src="@drawable/user"
+>
+</ImageView>
+<TextView
+android:id="@+id/lbl_nome"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="@string/lbl_nome"
+android:layout_x="74px"
+android:layout_y="200px"
+>
+</TextView>
+<TextView
+android:id="@+id/lbl_mail"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:text="@string/lbl_mail"
+android:layout_x="70px"
+android:layout_y="276px"
+>
+</TextView>
+<ImageView
+android:id="@+id/img_eu"
+android:layout_width="207px"
+android:layout_height="127px"
+android:layout_x="58px"
+android:layout_y="10px"
+android:src="@drawable/eu"
+>
+</ImageView>
+<ImageView
+android:id="@+id/img_mail"
+android:layout_width="56px"
+android:layout_height="54px"
+android:layout_x="4px"
+android:layout_y="270px"
+android:src="@drawable/mail"
+>
+</ImageView>
+ 
+</AbsoluteLayout>

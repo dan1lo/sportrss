@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView 
+ xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/scroll"
+	android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+<AbsoluteLayout
+android:id="@+id/widget0"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@color/background"
+
+>
+
+<Button android:text="@string/btn_noticia" android:layout_height="79px" android:layout_width="108px" android:id="@+id/btn_noticia" android:layout_x="8dip" android:layout_y="12dip"></Button>
+
+<Button android:text="@string/btn_historia" android:layout_height="79px" android:layout_width="108px" android:id="@+id/btn_historia" android:layout_x="162dip" android:layout_y="12dip"></Button>
+
+<Button android:text="@string/btn_placar" android:layout_height="79px" android:layout_width="108px" android:id="@+id/btn_placar" android:layout_x="11dip" android:layout_y="131dip"></Button>
+
+<Button android:text="@string/btn_titulos" android:layout_height="79px" android:layout_width="108px" android:id="@+id/btn_titulos" android:layout_x="14dip" android:layout_y="248dip"></Button>
+
+<Button android:text="@string/btn_campeonatos" android:layout_height="79px" android:layout_width="108px" android:id="@+id/btn_campeonatos" android:layout_x="14dip" android:layout_y="360dip"></Button>
+
+<Button android:text="@string/btn_links" android:layout_height="79px" android:layout_width="108px" android:id="@+id/btn_links" android:layout_x="162dip" android:layout_y="360dip"></Button>
+
+<Button android:text="@string/btn_contato" android:layout_height="79px" android:layout_width="108px" android:id="@+id/btn_contato" android:layout_x="162dip" android:layout_y="131dip"></Button>
+
+<Button android:text="@string/btn_redes" android:layout_height="79px" android:layout_width="108px" android:id="@+id/btn_redes" android:layout_x="162dip" android:layout_y="248dip"></Button>
+
+
+</AbsoluteLayout>
+</ScrollView>

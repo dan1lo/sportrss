@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+ xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/scroll"
+	android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+<AbsoluteLayout
+ 
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/background"
+  
+  >
+ <ImageView
+android:id="@+id/img_trofeus"
+android:layout_width="284px"
+android:layout_height="169px"
+android:layout_x="17px"
+android:layout_y="11px"
+android:src="@drawable/trofeu"
+>
+</ImageView>
+
+
+<TextView android:layout_width="wrap_content" android:text="@string/lbl_titulos" android:id="@+id/lbl_titulos" android:layout_height="wrap_content" android:layout_x="3dip" android:layout_y="226dip"></TextView>
+</AbsoluteLayout>
+</ScrollView>
